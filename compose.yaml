@@ -1,0 +1,18 @@
+# Luanti-Server mit VoxeLibre für Plesk Docker Stacks.
+# Vor dem Deployen anpassen:
+#  - PUID/PGID: eigene IDs ermitteln, siehe README Schritt 4
+#  - Volume-Pfad: eigene Domain statt example.org
+services:
+  luanti:
+    image: lscr.io/linuxserver/luanti:latest
+    container_name: luanti-server
+    environment:
+      PUID: "10000"          # Beispielwert – selbst ermitteln!
+      PGID: "1003"            # Beispielwert – selbst ermitteln!
+      TZ: Europe/Berlin
+      CLI_ARGS: "--gameid voxelibre --worldname meine_welt"
+    volumes:
+      - /var/www/vhosts/example.org/luanti-data:/config/.minetest
+    ports:
+      - "30000:30000/udp"
+    restart: unless-stopped

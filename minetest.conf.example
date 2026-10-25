@@ -1,0 +1,25 @@
+# Beispielkonfiguration für einen Luanti-Server mit VoxeLibre.
+# Nach /var/www/vhosts/example.org/luanti-data/main-config/minetest.conf kopieren
+# und beide Platzhalter ersetzen.
+
+# Hauptadministrator: exakt dieser Spielername erhält Adminrechte
+name = DEIN_ADMINNAME
+
+# Neue Konten müssen ein Passwort verwenden (ohne "s" am Ende!)
+disallow_empty_password = true
+
+# Anfangspasswort für neue Spielerkonten – eigenes Gruppenpasswort eintragen.
+# Bestehende Konten behalten ihr Passwort, wenn dieser Wert später geändert wird.
+default_password = EIN_EIGENES_GRUPPENPASSWORT
+
+# Server nicht in der öffentlichen Luanti-Serverliste zeigen.
+# Achtung: versteckt den Server nur, ist KEIN Zugangsschutz.
+server_announce = false
+
+# Beispiel-Spielregeln, nach Bedarf anpassen
+enable_pvp = false
+mcl_keepInventory = true
+creative_mode = false
+
+# Maximale gleichzeitig verbundene Spieler
+max_users = 25
