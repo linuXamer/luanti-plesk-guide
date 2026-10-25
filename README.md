@@ -4,7 +4,7 @@
 
 ## Warum dieses Repo
 
-Ich betreibe neben ein paar Websites auf einer kleinen VM (4 vCPU, 8 GB RAM) einen Luanti-Server mit VoxeLibre für eine kleine Gruppe. Es läuft, es macht Spaß, und es ist kein Hexenwerk – aber es gibt ein paar Stellen, an denen man sich sauber verhaken kann: falsche Benutzer-IDs, falscher Konfigurationspfad, Spieldaten im falschen Ordner. Diese Anleitung schreibt auf, was bei mir funktioniert, inklusive der Fehler, die ich vorher gemacht habe.
+Ich betreibe neben ein paar Websites auf einer kleinen VM (4 vCPU, 8 GB RAM) einen Luanti-Server mit VoxeLibre für eine kleine Gruppe. Es läuft, es macht Spaß, und es ist kein Hexenwerk – aber es gibt ein paar Stellen, an denen man sich sauber verhaken kann: falsche Benutzer-IDs, falscher Konfigurationspfad, Spieldaten im falschen Ordner. Diese Anleitung beschreibt, was bei mir funktioniert, inklusive der Fehler, die ich vorher gemacht habe. Viel Spaß beim Nachmachen :-D
 
 Wer etwas Ähnliches nachbauen will, kann sich hier alles abschauen. Keine Garantie, dass es überall genauso läuft – die getestete Umgebung steht unten.
 
